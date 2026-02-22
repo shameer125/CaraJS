@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ecommerec Website</title>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a class="active" href="./contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="./cart.html" style="position: relative">
+              <i class="fas fa-shopping-bag"></i>
+
+              <span
+                class="cart-count"
+                style="
+                  position: absolute;
+                  top: -8px;
+                  right: -10px;
+                  background: red;
+                  color: white;
+                  border-radius: 50%;
+                  padding: 2px 6px;
+                  font-size: 12px;
+                  display: none;
+                "
+                >0</span
+              >
+            </a>
+          </li>
+          <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="fas fa-bars"></i>
+
+        <a href="./cart.html" style="position: relative">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+      <h2>#Let's_talk</h2>
+      <p>Leave a message, We love to hear from you</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Vist one of our agency locations or contact us today</h2>
+        <h3>Head office</h3>
+        <div>
+          <li>
+            <i class="fas fa-map"></i>
+            <p>56 Glassford Street Glassgow G1 1UL New York</p>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="fas fa-clock"></i>
+            <p>Monday to Saturday: 9.00am to 16.pm</p>
+          </li>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.6872164482265!2d-1.2570928243499537!3d51.75704287187115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2s!4v1755737155342!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="form-details">
+      <form id="contactForm">
+        <span>LEAVE A MESSAGE</span>
+        <h2>We love to hear from you</h2>
+        <input type="text" name="name" placeholder="Your Name" />
+        <input type="email" name="email" placeholder="Email" />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <button type="submit" class="normal">Submit</button>
+      </form>
+      <div class="people">
+        <div>
+          <img src="img/people/1.png" alt="" />
+          <p>
+            <span>John Doe</span> Senior marketing Manager <br />Phone: + 000
+            123 000 77 88 <br />Email: contact@example.com
+          </p>
+        </div>
+        <div>
+          <img src="img/people/2.png" alt="" />
+          <p>
+            <span>William Smith</span> Senior marketing Manager <br />Phone: +
+            000 123 000 77 88 <br />Email: contact@example.com
+          </p>
+        </div>
+        <div>
+          <img src="img/people/3.png" alt="" />
+          <p>
+            <span>Emma Stone</span> Senior marketing Manager <br />Phone: + 000
+            123 000 77 88 <br />Email: contact@example.com
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="img/logo.png" alt="" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address: </strong> 562 Wellington Road, Street 32, San
+          Francing
+        </p>
+        <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>0 2025 dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </footer>
+
+    <div
+      id="contact-toast"
+      style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #4bb543;
+        color: white;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-weight: bold;
+        display: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+      "
+    >
+      ✅ Your information has been submitted successfully!
+    </div>
+
+    <script>
+      // From submittion
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.getElementById("contactForm");
+        const toast = document.getElementById("contact-toast");
+
+        form.addEventListener("submit", function (e) {
+          e.preventDefault(); // prevent form reload
+
+          const name = this.elements["name"].value.trim();
+          const email = this.elements["email"].value.trim();
+          const message = this.elements["message"].value.trim();
+
+          if (!name || !email || !message) {
+            alert("❌ Please fill in all fields.");
+            return;
+          }
+
+          toast.style.display = "block"; // show toast
+
+          setTimeout(() => {
+            toast.style.display = "none"; // hide after 2.5s
+          }, 2500);
+
+          this.reset(); // reset form
+        });
+      });
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
