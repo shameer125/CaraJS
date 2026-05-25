@@ -287,12 +287,14 @@
         </div>
         <p>Secured Payment Gateways</p>
         <img src="img/pay/pay.png" alt="" />
+        
       </div>
 
       <div class="copyright">
         <p>0 2025 dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </footer>
+
 
     <script>
       let MainImg = document.getElementById("MainImg");
@@ -320,13 +322,16 @@
           let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
           cart.push(product);
+
           localStorage.setItem("cart", JSON.stringify(cart));
           updateCartCount();
           // popup message
           alert("✅ Item added to cart successfully!");
+
         });
     </script>
 
     <script src="./script.js"></script>
   </body>
+
 </html> -->
